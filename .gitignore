@@ -1,0 +1,81 @@
+# ============================
+#  PYTHON
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pyd
+*.pyo
+*.$py.class
+
+# Archivos generados por módulos
+*.log
+*.tmp
+
+# ============================
+#  ENTORNO VIRTUAL
+# ============================
+.venv/
+venv/
+env/
+
+# ============================
+#  PYINSTALLER
+# ============================
+# Directorios generados por PyInstaller
+build/
+dist/
+
+
+# Carpeta temporal de ejecución de PyInstaller
+*.manifest
+*.dll
+*.bak
+
+# Archivos generados en modo onefile
+_ZebraZPLAgent.exe*
+*_temp/
+
+# ============================
+#  PYSIDE6 / QT
+# ============================
+*.qtcreator
+*.qrc
+*.qmlc
+*.jsc
+*.pyi
+
+# ============================
+#  EDITORES / IDE
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================
+#  WINDOWS
+# ============================
+Thumbs.db
+Desktop.ini
+
+# ============================
+#  PROYECTO AGENTE
+# ============================
+agent/agent_error.log
+agent/*.lnk
+agent/*.tmp
+
+# ============================
+#  ARCHIVOS SENSIBLES
+# ============================
+*.key
+*.crt
+*.pem
+
+# ============================
+#  FIN
+# ============================
